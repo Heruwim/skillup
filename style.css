@@ -101,8 +101,8 @@ body {
 }
 
 .hero-image .container {
-  display: flex;
-  flex-direction: column;
+ /* display: flex;
+  flex-direction: column;*/
 }
 
 .hero-image::before {
@@ -160,7 +160,7 @@ body {
 
 .intro {
   padding-top: 160px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
   min-height: 828px;
 }
 
@@ -178,18 +178,17 @@ body {
 }
 
 .user-image {
-  position: absolute;
+  
   margin: 0;
 }
 
 .user-image img {
-  width: 640px;
-  height: 640px;
-  object-fit: cover;
+	max-height: 580px;
+	width: auto;
 }
 
 .intro .container div {
-  margin-left: 720px;
+  
   margin-bottom: 56px;
 }
 
@@ -254,6 +253,26 @@ body {
   line-height: 26px;
   background-color: #5053a8;
   background-image: url("img/progress-pattern.svg");
+}
+
+.container__meet{
+	display: flex;
+	
+}
+
+.container__element{
+width: 100%;
+height: auto;
+/*padding: 10px;*/
+}
+
+.user-image{
+height: 500px;
+width: auto;
+}
+
+.container__skills{
+padding: 10px;
 }
 
 .portfolio {
