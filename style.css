@@ -178,7 +178,6 @@ body {
 }
 
 .user-image {
-  
   margin: 0;
 }
 
@@ -188,8 +187,7 @@ body {
 }
 
 .intro .container div {
-  
-  margin-bottom: 56px;
+    margin-bottom: 56px;
 }
 
 .intro h3,
@@ -257,7 +255,6 @@ body {
 
 .container__meet{
 	display: flex;
-	
 }
 
 .container__element{
